@@ -1,3 +1,21 @@
-header {background-color:pink;}
-.column {width:25%; padding:5px;}
-.row {padding:5px; height:10%;}
+header {background-color:pink; text-align:center;}
+nav {text-align:center; padding:5px; font-size:20px;}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
