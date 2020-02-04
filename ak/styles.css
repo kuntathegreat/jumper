@@ -1,4 +1,7 @@
-header {background-color:pink; text-align:center;}
+header {background-color:black; color:pink; text-align:center;padding: 0 4px}
+body {
+background-color:pink
+}
 nav {text-align:center; padding:5px; font-size:20px;}
 .row {
   display: flex;
@@ -18,4 +21,26 @@ nav {text-align:center; padding:5px; font-size:20px;}
   vertical-align: middle;
   width: 100%;
 }
+button {
+  background-color:white; /*white */
+  border:;
+  color: black;
+  padding: ;
+  text-align: ;
+  text-decoration: none;
+  display: inline-block;
+  font-size:;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
