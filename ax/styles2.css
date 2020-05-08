@@ -1,0 +1,52 @@
+body{
+	padding: 10px;
+	margin: 10px;
+	font-size: 40px;
+
+}
+
+header{
+	background-color: rgb(225,0,225);
+	background-image: url(..\images\this.jpg);
+
+}
+
+h1{
+	color: rgb(240,240,200);
+	font-size: 80px;
+
+}
+
+nav a{
+	border-radius: 20px;
+	text-decoration: none;
+}
+
+.active{
+
+}
+
+.left{
+	display: inline-block;
+	float: left;
+	width: 30%;
+	margin: 2%;
+	background: #FFFFAA;
+
+}
+
+.right{
+	display: inline-block;
+	float: left;
+	margin: 2%;
+	width: 30%;
+
+}
+
+.left img{
+	display: all;
+	margin: 10px, 0px;
+	align-content: center;
+	
+
+}

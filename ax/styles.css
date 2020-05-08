@@ -1,0 +1,48 @@
+h1{
+	font-size: 150%;
+	color: #ffffff
+}
+
+header{
+	text-align: center;
+}
+
+h2 {
+	background-color: #00B7EA;
+	color: #666666;
+}
+
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, "Time New Roman", serif;
+}
+
+
+section{
+	display: inline-block;
+	width:30%;
+	float:left;
+	margin-right:2%;
+	}
+
+details{
+	font-style: italic;
+
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	background: #00B7EA;
+	clear: both;
+}
+
+img{
+	width:75px;
+	}
+a[href$=".com"]{
+	color: rgb(225,0,225);
+}
